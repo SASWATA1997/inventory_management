@@ -8,7 +8,7 @@ A step-by-step guide to setting up and using the Inventory Management REST API b
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
+- [startServer](#Start-server)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 
@@ -73,7 +73,7 @@ python manage.py makemigrations:
 ```bash
 python manage.py migrate
 ```
-### Start server
+## Start server
 To start the development server:
 ```bash
 python manage.py runserver
