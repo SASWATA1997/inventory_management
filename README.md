@@ -51,30 +51,37 @@ git clone https://github.com/yourusername/inventory_management_rest.git
 cd inventory_management_rest
 ```
 ### Step 2: Create a Virtual Environment
+```bash
 python -m venv env  # Create a virtual environment
 
 pip install -r requirements.txt
-
+```
 ### Step 3: Activate the Virtual Environment
 Activate the virtual environment with the following command:
+```bash
 env\Scripts\activate
-
+```
 ### Step 4: Install Required Packages
-Install the project dependencies using pip
+Install the project dependencies using pip:
+```bash
 pip install -r requirements.txt
-
+```
 ### Step 5: Apply Migrations
-python manage.py makemigrations
+```bash
+python manage.py makemigrations:
+```
+```bash
 python manage.py migrate
-
+```
 ### Start server
-To start the development server
+To start the development server:
+```bash
 python manage.py runserver
-
-API Endpoints
+```
+##API Endpoints
 Here are the available API endpoints:
 
-### Method	Endpoint	Description
+ Method	Endpoint	Description
 1. POST	/api/token/	Obtain JWT token.
 2. POST	/api/items/	Create a new item.
 3. GET	/api/items/	Retrieve a list of items.
@@ -98,6 +105,7 @@ Use a tool like Postman or cURL to obtain a JWT token.
 5. Send the request and receive a JWT token in the response.
 ### Testing
 To run the tests for this project, use the following command:
+```bash
 python manage.py test
-
+```
 
