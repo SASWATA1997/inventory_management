@@ -78,7 +78,7 @@ To start the development server:
 ```bash
 python manage.py runserver
 ```
-## API Endpoints
+### API Endpoints
 Here are the available API endpoints:
 
  Method	Endpoint	Description
@@ -89,10 +89,10 @@ Here are the available API endpoints:
 5. PUT	/api/items/<int:id>/	Update a specific item by ID.
 6. DELETE	/api/items/<int:id>/	Delete a specific item by ID.
 
-### example of Obtaining a Token
+## example of Obtaining a Token
 Use a tool like Postman or cURL to obtain a JWT token.
 
-## Using Postman:
+### Using Postman:
 
 1. Set the request method to POST.
 2. Enter the URL: http://localhost:8000/api/token/.
@@ -103,7 +103,7 @@ Use a tool like Postman or cURL to obtain a JWT token.
     "password": "1234"
 }
 5. Send the request and receive a JWT token in the response.
-### Testing
+## Testing
 To run the tests for this project, use the following command:
 ```bash
 python manage.py test
