@@ -1,0 +1,13 @@
+asgiref==3.7.2  # Compatible with Django 3.2
+Django==3.2.22  # LTS version compatible with MariaDB 10.4
+django-environ==0.11.2  # No change needed
+django-redis==5.4.0  # No change needed
+djangorestframework==3.12.4  # Compatible with Django 3.2
+djangorestframework-simplejwt==5.3.1  # No change needed
+
+mysqlclient==2.2.4  # No change needed
+PyJWT==2.9.0  # No change needed
+redis==5.1.1  # No change needed
+sqlparse==0.4.4  # Compatible with Django 3.2
+tzdata==2024.2  # No change needed
+
