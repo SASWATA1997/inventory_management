@@ -93,7 +93,7 @@ Here are the available API endpoints:
 Use a tool like Postman or cURL to obtain a JWT token.
 
 ## Using Postman:
-## super user creation for authentication
+### super user creation for authentication
 open python shell
 ```bash
 python manage.py shell
