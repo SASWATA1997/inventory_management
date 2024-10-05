@@ -27,7 +27,7 @@ This project is a RESTful API for managing inventory items, including features s
 
 - **Django**: The web framework used for building the API.
 - **Django REST Framework**: A powerful toolkit for building Web APIs.
-- **PostgreSQL / MySQL / SQLite**: Database options for storing user and item data.
+- **MySQL / SQLite**: Database options for storing user and item data.
 - **Simple JWT**: For handling JSON Web Tokens for authentication.
 
 ## Prerequisites
