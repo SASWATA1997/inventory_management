@@ -49,7 +49,7 @@ Open your terminal or command prompt and run:
 ```bash
 git clone https://github.com/yourusername/inventory_management_rest.git
 cd inventory_management_rest
-
+```
 ### Step 2: Create a Virtual Environment
 python -m venv env  # Create a virtual environment
 
