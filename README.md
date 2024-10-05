@@ -11,9 +11,6 @@ A step-by-step guide to setting up and using the Inventory Management REST API b
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
