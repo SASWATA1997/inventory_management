@@ -89,10 +89,10 @@ Here are the available API endpoints:
 5. PUT	/api/items/<int:id>/	Update a specific item by ID.
 6. DELETE	/api/items/<int:id>/	Delete a specific item by ID.
 
-## example of Obtaining a Token
+### example of Obtaining a Token
 Use a tool like Postman or cURL to obtain a JWT token.
 
-### Using Postman:
+## Using Postman:
 
 1. Set the request method to POST.
 2. Enter the URL: http://localhost:8000/api/token/.
