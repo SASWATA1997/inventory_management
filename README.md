@@ -93,7 +93,22 @@ Here are the available API endpoints:
 Use a tool like Postman or cURL to obtain a JWT token.
 
 ## Using Postman:
-
+## super user creation for authentication
+open python shell
+```bash
+python manage.py shell
+```
+create user manually
+```bash
+User.objects.create_user(username='username', password='password')
+```
+check user exit or not 
+```bash
+from django.contrib.auth import get_user_model
+User = get_user_model()
+users = User.objects.all()  # Get all users
+print(users)  # Print all users to see if 'saswata' exists
+```
 1. Set the request method to POST.
 2. Enter the URL: http://localhost:8000/api/token/.
 3. In the Body tab, select raw and set the type to JSON.
