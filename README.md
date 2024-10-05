@@ -78,7 +78,7 @@ To start the development server:
 ```bash
 python manage.py runserver
 ```
-##API Endpoints
+## API Endpoints
 Here are the available API endpoints:
 
  Method	Endpoint	Description
